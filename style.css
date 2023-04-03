@@ -1,0 +1,83 @@
+/* CSS untuk membuat tampilan responsif */
+/* Ubah lebar tabel menjadi 100% saat tampilan di bawah 768px */
+@media only screen and (max-width: 767px) {
+  table {
+      width: 100%;
+  }
+}
+
+/* Ubah tampilan link pagination saat tampilan di bawah 768px */
+@media only screen and (max-width: 767px) {
+  ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+  }
+  li {
+      margin: 0.5em;
+      padding: 0;
+  }
+  a {
+      display: block;
+      padding: 0.5em;
+      border: 3px solid rgb(22, 2, 2);
+      text-align: center;
+      text-decoration: none;
+      color: #333;
+  }
+  a:hover {
+      background-color: #ccc;
+  }
+  li.active a {
+      background-color: #333;
+      color: #fff;
+  }
+}
+
+/* CSS untuk membuat tabel lebih mudah dibaca */
+table {
+  border-collapse: solid;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+th, td {
+  padding: 0.5em;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+button {
+  background-color: #218b06;
+  border: inset;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #57a750;
+}
+
+button.prev {
+  float: left;
+}
+
+button.next {
+  float: right;
+}
+
