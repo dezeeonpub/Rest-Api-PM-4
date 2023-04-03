@@ -2,10 +2,12 @@
 
 
 **HASIL
+
+
 ***HOME 
-![image](https://user-images.githubusercontent.com/90754841/229408304-f53ff67f-bbf1-4933-9ef3-7b9c6eb94c6b.png)
+![image](https://github.com/dezeeonpub/Rest-Api-PM-4/blob/bbee2ae77eae630cd0631b58f4ac0e607e653667/home.PNG)
 
 
 
 ***NEXT
-![image](https://user-images.githubusercontent.com/90754841/229408325-d070d7a4-4071-4ea1-84c7-42c93b0f2c01.png)
+![image](https://github.com/dezeeonpub/Rest-Api-PM-4/blob/bbee2ae77eae630cd0631b58f4ac0e607e653667/next.PNG)
